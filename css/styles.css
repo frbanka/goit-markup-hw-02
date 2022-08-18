@@ -3,15 +3,14 @@ main {
     color: #212121;
 }
 
-h3 {
+.imagetitle {
     font-weight: 700;
         font-size: 18px;
         line-height: 200%;
         letter-spacing: 0.06em;
 }
 
-p {
-    font-family: 'Roboto';
+.imagetext {
         font-weight: 400;
         font-size: 16px;
         line-height: 188%;
@@ -19,8 +18,51 @@ p {
         color: #757575;
 }
 
-ul {
-    list-style: none;
+.maintitle {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 136%;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+.featuretitle {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+}
+
+.featuretext {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.subtitle {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+}
+
+.nametitle {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+}
+
+.nametext {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
 
 .webtitle {
@@ -52,7 +94,7 @@ ul {
 
 }
 
-a {
+.linknormal {
 text-decoration: none;
 color: #212121;
     font-family: 'Roboto';
@@ -62,7 +104,11 @@ color: #212121;
     letter-spacing: 0.02em
 }
 
-a:hover {
+.linknormal:hover {
+    color: #2196F3;
+}
+
+.linkcurrent {
     color: #2196F3;
 }
 
@@ -91,16 +137,33 @@ a:hover {
 }
 .button {
     cursor: pointer;
+    
     background: #F5F4FA;
         border-radius: 4px;
-        font-family: 'Roboto';
             font-weight: 500;
             font-size: 16px;
             line-height: 162%;
-            text-align: center;
             letter-spacing: 0.03em;
             color: #212121;
 }
+
+.btn {
+    cursor: pointer;
+    background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height:188%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+}
+
+.btn:hover {
+    background: #ffffff;
+    color:#000000;
+}
+
 .address {
     font-family: 'Roboto';
     font-style: normal;

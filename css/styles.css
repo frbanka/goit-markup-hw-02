@@ -1,23 +1,23 @@
-main {
+body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
 
-.imagetitle {
+.image-title {
     font-weight: 700;
         font-size: 18px;
         line-height: 200%;
         letter-spacing: 0.06em;
 }
 
-.imagetext {
+.image-text {
         font-size: 16px;
         line-height: 188%;
         letter-spacing: 0.03em;
         color: #757575;
 }
 
-.maintitle {
+.main-title {
         font-weight: 900;
         font-size: 44px;
         line-height: 136%;
@@ -25,7 +25,7 @@ main {
         text-transform: uppercase;
         color: #FFFFFF;
 }
-.featuretitle {
+.feature-title {
     font-weight: 700;
         font-size: 14px;
         line-height: 16px;
@@ -34,7 +34,7 @@ main {
 
 }
 
-.featuretext {
+.feature-text {
         font-size: 14px;
         line-height: 171%;
         letter-spacing: 0.03em;
@@ -48,21 +48,21 @@ main {
         letter-spacing: 0.03em;
 }
 
-.nametitle {
+.name-title {
     font-weight: 500;
         font-size: 16px;
         line-height: 19px;
         letter-spacing: 0.03em;
 }
 
-.nametext {
+.name-text {
         font-size: 16px;
         line-height: 19px;
         letter-spacing: 0.03em;
         color: #757575;
 }
 
-.webtitle {
+.web-title {
     font-family: 'Raleway';
     text-decoration: none;
         font-weight: 700;
@@ -72,7 +72,7 @@ main {
         color: #2196F3;
     
 }
-.webtitle2 {
+.web-title-black {
     font-family: 'Raleway';
         font-size: 26px;
         line-height: 36px;
@@ -80,7 +80,7 @@ main {
     color: #000000;
 }
 
-.webtitle3 {
+.web-title-white {
     font-family: 'Raleway';
         font-size: 26px;
         line-height: 36px;
@@ -89,7 +89,7 @@ main {
 
 }
 
-.linknormal {
+.link-normal {
 text-decoration: none;
 color: #212121;
     font-family: 'Roboto';
@@ -99,11 +99,11 @@ color: #212121;
     letter-spacing: 0.02em
 }
 
-.linknormal:hover {
+.link-normal:hover {
     color: #2196F3;
 }
 
-.linkcurrent {
+.link-current {
     color: #2196F3;
 }
 
@@ -125,10 +125,10 @@ color: #212121;
     
 }
 
-.button:hover {
+.button-filter:hover {
     background: #2196F3;  
 }
-.button {
+.button-filter {
     cursor: pointer;
     
     background: #F5F4FA;
@@ -140,7 +140,7 @@ color: #212121;
             color: #212121;
 }
 
-.btn {
+.button-head {
     cursor: pointer;
     background: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -152,7 +152,7 @@ color: #212121;
             color: #FFFFFF;
 }
 
-.btn:hover {
+.button-head:hover {
     background: #ffffff;
     color:#000000;
 }
@@ -168,6 +168,10 @@ color: #212121;
 
 .header {
     background: #FFFFFF;
+}
+
+.banner {
+    background: #2F303A;
 }
 .footer {
     background: #2F303A;
